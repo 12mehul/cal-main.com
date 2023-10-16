@@ -3,7 +3,7 @@
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+  url      = "postgres://default:JZxBpKIYwc54@ep-dawn-sound-86031387.us-east-1.postgres.vercel-storage.com:5432/verceldb"
 }
 
 generator client {
